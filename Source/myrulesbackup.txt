@@ -1,0 +1,297 @@
+﻿<?xml version="1.0"?>
+<RuleSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RuleCategories>
+    <RuleCategory Name="Nitriq">
+      <RuleCategories>
+        <RuleCategory Name="Visualizations">
+          <RuleCategories />
+          <Rules>
+            <Rule Name="Assemblies" Active="false">
+              <Code>var results = (
+				from type in Types
+				orderby type.Methods.Count descending
+			  	select new { type.TypeId, type.FullName, type.Name, MethodCount = type.Methods.Count }
+			  ).Take(1000);</Code>
+            </Rule>
+            <Rule Name="Types Method Count" Active="true">
+              <Code>var results = (
+				from type in Types
+				//where !type.Assembly.IsFrameworkAssembly
+				orderby type.Methods.Count descending
+			  	select new { type.TypeId, type.FullName, type.Name, MethodCount = type.Methods.Count }
+			  ).Take(1000);</Code>
+            </Rule>
+            <Rule Name="Methods" Active="true">
+              <Code>var results = (
+from method in Methods
+orderby method.PhysicalLineCount descending
+select new { method.MethodId, method.Type.FullName, method.Name, method.ILCyclomatic, method.PhysicalLineCount, method.Cyclomatic }
+).Take(1000);</Code>
+            </Rule>
+            <Rule Name="Fields" Active="true">
+              <Code>var results = (
+				from field in Fields
+				orderby field.GotByMethods.Count descending
+			  	select new { field.FieldId, TypeName = field.Type.Name, field.Type.FullName, field.Name, GotByCount = field.GotByMethods.Count }
+			  ).Take(1000);</Code>
+            </Rule>
+            <Rule Name="Namespaces - Type Count" Active="true">
+              <Code>var results = (
+				from nspace in Namespaces
+				orderby nspace.Types.Count descending
+			  	select new { nspace.NamespaceId, nspace.FullName, TypeCount = nspace.Types.Count }
+			  ).Take(1000);</Code>
+            </Rule>
+            <Rule Name="Types With Over 100 methods" Active="true">
+              <Code>var results = 
+from type in Types
+where type.Methods.Count &gt; 100
+select new { type.TypeId, MethodCount = type.Methods.Count, type.Name, type.Namespace.FullName };</Code>
+            </Rule>
+            <Rule Name="Types with over 50 public methods" Active="true">
+              <Code>var results = 
+from type in Types
+let PublicMethodCount = type.Methods.Where(m =&gt; m.IsPublic).Count()
+where PublicMethodCount &gt; 50 &amp;&amp; type.IsInFrameworkAssembly
+select new { type.TypeId, PublicMethodCount, MethodCount = type.Methods.Count, type.Name, type.Namespace.FullName };</Code>
+            </Rule>
+            <Rule Name="Test Stuff" Active="true">
+              <Code>var results = 
+from method in Methods
+where method.Type.FullName == "System.Convert"
+select new { Type = method.Type.Name, method.IsPublic, method.Name, method.IsStatic };</Code>
+            </Rule>
+            <Rule Name="Types that depend on DateTime" Active="true">
+              <Code>var dateTime = Types.FullNameIs("System.DateTime").First();
+var results =
+from type in Types
+where type.InTypes.Contains(dateTime)
+select new { type.TypeId, type.Name, type.Namespace.FullName }; </Code>
+            </Rule>
+          </Rules>
+        </RuleCategory>
+        <RuleCategory Name="Warnings">
+          <RuleCategories />
+          <Rules>
+            <Rule Name="Fields with FieldType that is null" Active="true">
+              <Code>var results = from field in Fields
+			  where field.FieldType.Name == "T"
+			  select new { field.FieldId, field.Name, field.Type.FullName };
+
+Warn(results.Count() &gt; 10, "Whoa, too many fields");
+//Error(results.Count() &gt; 20, "Whoa, way too many fields");</Code>
+            </Rule>
+          </Rules>
+        </RuleCategory>
+      </RuleCategories>
+      <Rules />
+    </RuleCategory>
+    <RuleCategory Name="FX Cop">
+      <RuleCategories>
+        <RuleCategory Name="Design">
+          <RuleCategories />
+          <Rules>
+            <Rule Name="Abstract types should not have constructors" Active="true">
+              <Code>var results = 
+	from type in Types
+	let ConstructorCount = type.Methods.Where(m =&gt; m.IsConstructor).Count()
+	where type.IsAbstract &amp;&amp; ConstructorCount &gt; 0
+	select new { type.TypeId, type.Name, type.FullName, ConstructorCount } ;
+
+Warn(results.Count() &gt; 0, "Abstract types should not have constructors");</Code>
+            </Rule>
+            <Rule Name="Avoid namespaces with few types" Active="true">
+              <Description>Namespaces should have at least 5 types</Description>
+              <Code>var results = 
+	from n in Namespaces
+	where n.Types.Count &lt; 5 &amp;&amp; n.Types.Count != 0 
+	select new { n.FullName, n.Types.Count };
+
+Warn(results.Count() &gt; 0, "Avoid namespaces with few types");
+
+//namespaces with 0 Types are created by Nitriq, they're used to create a 
+//full hierarchy for certain views, they aren't explictly used in code 
+//and can be safely ignored.</Code>
+            </Rule>
+            <Rule Name="Collections should implement generic interface" Active="true">
+              <Code>var iEnumOfT = Types.FullNameIs("System.Collections.Generic.IEnumerable`1").FirstOrDefault();
+
+var results = 
+	from type in Types.FullNameIs("System.Collections.IEnumerable").First().DerivedTypes
+	where !type.Interfaces.Contains(iEnumOfT) 
+	select new { type.TypeId, type.Name, type.FullName };
+
+Warn(results.Count() &gt; 0, "Collections should implement generic interface");</Code>
+            </Rule>
+            <Rule Name="Do not declare protected members in sealed types" Active="true">
+              <Code>var results = 
+	from type in Types
+	let protectedMethodCount = type.Methods.Where(m =&gt; m.IsProtected).Count()
+	let protectedFieldCount = type.Fields.Where(f =&gt; f.IsProtected).Count()   
+	let protectedEventCount = type.Events.Where(e =&gt; e.IsProtected).Count()
+	where type.IsSealed &amp;&amp; (protectedMethodCount &gt; 0 || protectedFieldCount &gt; 0 
+	|| protectedEventCount &gt; 0) &amp;&amp; !type.IsInFrameworkAssembly
+	select new { type.TypeId, type.Name, type.FullName, protectedMethodCount, protectedFieldCount, protectedEventCount };
+
+Warn(results.Count() &gt; 0, "Do not declare protected members in sealed types");
+
+</Code>
+            </Rule>
+            <Rule Name="Do not declare static members on generic types" Active="true">
+              <Code>var results = 
+	from type in Types
+	from method in type.Methods
+	from field in type.Fields
+	from ev in type.Events
+	where type.GenericParameterCount &gt; 0 &amp;&amp; (method.IsStatic || field.IsStatic || ev.IsStatic)
+	select new { 
+		type.TypeId, 
+		type.Name, 
+		type.FullName, 
+		MethodName = method.Name,
+		FieldName = field.Name, 
+		EventName = ev.Name 
+	};
+
+
+Warn(results.Count() &gt; 0, "Do not declare static members on generic types");</Code>
+            </Rule>
+            <Rule Name="Do not declare virtual members in sealed types" Active="true">
+              <Code>var results = 
+	from type in Types
+	from method in type.Methods
+	where type.IsSealed &amp;&amp; method.IsVirtual 
+	select new { method.MethodId, MethodName = method.Name, TypeName = type.Name, 
+		TypeFullName = type.FullName  };
+
+Warn(results.Count() &gt; 0, "Do not declare virtual members in sealed types");</Code>
+            </Rule>
+            <Rule Name="Do not declare visible instance fields" Active="true">
+              <Code>var results = 
+	from field in Fields
+	where !field.IsStatic &amp;&amp; (field.IsPublic || field.IsProtectedOrInternal || field.IsProtected)
+	select new { field.FieldId, field.Name, Type = field.Type.FullName };
+
+Warn(results.Count() &gt; 0, "Do not declare visible instance fields");</Code>
+            </Rule>
+            <Rule Name="Do not expose generic lists" Active="true">
+              <Code>var listOfT = Types.FullNameIs("System.Collections.Generic.List`1").First();
+var results = 
+	from type in Types
+	from method in type.Methods
+	where method.ReturnType == listOfT &amp;&amp; !method.IsPrivate &amp;&amp; !method.IsProtected
+	select new { method.MethodId, method.Name, Type = method.Type.FullName };
+
+//TODO: also warn if parameter accepts a ListOfT
+
+Warn(results.Count() &gt; 0, "Do not expose generic lists");</Code>
+            </Rule>
+            <Rule Name="Enum storage should be Int32" Active="true">
+              <Code>var int32Type = Types.FullNameIs("System.Int32").First();
+
+var results = 
+	from type in Types
+	let valueType = type.Fields.NameIs("value__").FirstOrDefault()
+	where type.IsEnum &amp;&amp; valueType != null &amp;&amp; valueType.FieldType != int32Type
+	select new { type.TypeId, type.Name, type.FullName, BaseType = valueType.FieldType.FullName };
+
+Warn(results.Count() &gt; 0, "Enum storage should be Int32");</Code>
+            </Rule>
+            <Rule Name="Exceptions should be public" Active="true">
+              <Code>var results = 
+	from exceptableBaseException in Types
+	from type in exceptableBaseException.DerivedTypes
+	where (exceptableBaseException.FullName == "System.Exception" ||
+		exceptableBaseException.FullName == "System.SystemException" ||
+		exceptableBaseException.FullName == "System.ApplicationException")
+		&amp;&amp; !type.IsPublic
+	select new { type.TypeId, type.Name, type.FullName, 
+		type.IsInternal, type.IsProtected,
+		type.IsProtectedAndInternal, type.IsPrivate };
+
+Warn(results.Count() &gt; 0, "Exceptions should be public");</Code>
+            </Rule>
+            <Rule Name="Indexers should not be multidimensional" Active="true">
+              <Code>var results = from method in Methods
+			  where (method.IsIndexGetter &amp;&amp; method.ParameterCount &gt; 1) ||
+			        (method.IsIndexSetter &amp;&amp; method.ParameterCount &gt; 2) 
+			  select new { method.MethodId, method.Name, 
+				Type = method.Type.FullName, method.ParameterCount};
+
+Warn(results.Count() &gt; 0, "Indexers should not be multidimensional");
+
+//the last parameter on an index setter is the value, we don't want to count
+//that for whether or not it is multi dimensional
+
+</Code>
+            </Rule>
+            <Rule Name="Nested types should not be visible" Active="true">
+              <Code>var iEnumerator = Types.FullNameIs("System.Collections.IEnumerator").First();
+
+var results = from type in Types
+			  where type.IsNested &amp;&amp; 
+			  type.IsPublic &amp;&amp; type.Interfaces.Contains(iEnumerator)
+			  select new { type.TypeId, type.Name, type.FullName };
+
+Warn(results.Count() &gt; 0, "Nested types should not be visible");
+
+//enumerators are exempt from this rule</Code>
+            </Rule>
+            <Rule Name="Properties should not be write only" Active="true">
+              <Code>var results = 
+	from type in Types
+	from method in type.Methods
+	where method.IsPropertySetter &amp;&amp; 
+		type.Methods.NameIs("get_" + method.Name.Substring(4)).FirstOrDefault() == null
+	select method;
+
+Warn(results.Count() &gt; 0, "Properties should not be write only");</Code>
+            </Rule>
+            <Rule Name="Static holder types should not have constructors" Active="true">
+              <Code>var results = 
+	from type in Types
+	where !type.IsSealed &amp;&amp; 
+		type.Methods.Where(method =&gt; method.IsConstructor &amp;&amp; method.ParameterCount != 0).Count() &gt; 0 &amp;&amp;
+		type.Methods.Where(method =&gt; !method.IsStatic).Count() == 0 &amp;&amp;
+		type.Fields.Where(field =&gt; !field.IsStatic).Count() == 0 &amp;&amp;
+		type.Events.Where(ev =&gt; !ev.IsStatic).Count() == 0
+	select new { type.TypeId, type.Name, type.FullName } ;
+
+Warn(results.Count() &gt; 0, "Static holder types should not have constructors");
+</Code>
+            </Rule>
+            <Rule Name="Types that own disposable fields should be disposable" Active="true">
+              <Code>var iDisposable = Types.FullNameIs("System.IDisposable").First();
+
+var results = 
+	from type in Types
+	from field in type.Fields
+	where !type.Interfaces.Contains(iDisposable) &amp;&amp; 
+		field.FieldType != null &amp;&amp; field.FieldType.Interfaces.Contains(iDisposable)
+	select new { field.FieldId, field.Name, Type = type.FullName } ;
+
+//todo: mess with this some more, see if we can get a better expando for grid 
+//(to show disposable fields or some sort of delimited list builder
+//maybe we list all the fields that are disposable where the 
+
+Warn(results.Count() &gt; 0, "Types that own disposable fields should be disposable");</Code>
+            </Rule>
+          </Rules>
+        </RuleCategory>
+        <RuleCategory Name="Maintainability">
+          <RuleCategories />
+          <Rules />
+        </RuleCategory>
+        <RuleCategory Name="Naming">
+          <RuleCategories />
+          <Rules />
+        </RuleCategory>
+        <RuleCategory Name="Performance">
+          <RuleCategories />
+          <Rules />
+        </RuleCategory>
+      </RuleCategories>
+      <Rules />
+    </RuleCategory>
+  </RuleCategories>
+</RuleSet>

@@ -1,0 +1,26 @@
+The following icons are from either the Crystal icon set, http://www.everaldo.com/crystal/, or the Oxygen icon set, http://www.oxygen-icons.org/ . These icons are licensed under the LGPL, available here: http://www.gnu.org/copyleft/lesser.html
+
+As such, use of these icons is still covered by the LGPL license.
+
+Crystal
+-------
+Icons.DentsEffectIcon
+Icons.EllipseToolIcon
+Icons.FreeformShapeToolIcon
+Icons.InkSketchEffectIcon
+Icons.InvertColorsEffect
+Icons.RectangleToolIcon
+Icons.RoundedRectangleToolIcon
+
+Oxygen
+------
+Icons.MenuUtilitiesCheckForUpdatesIcon
+Icons.CloudsEffect
+Icons.ColorPickerToolIcon
+Icons.CurvesEffect
+Icons.EdgeDetectEffect
+Icons.LineToolIcon
+Icons.MenuEditCutIcon
+Icons.OutlineEffectIcon
+Icons.PaintBrushToolIcon
+Icons.TextToolIcon

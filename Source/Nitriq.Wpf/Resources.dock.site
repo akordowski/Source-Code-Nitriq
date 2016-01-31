@@ -1,0 +1,38 @@
+﻿<DockSiteLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<AutoHideHost />
+	<Content xsi:type="SplitContainer" UniqueId="64bc1fdc-fd3c-4866-8065-a3b48cabd916" AutoHideSize="1084,633.08" DockedSize="1084,641.2" DocumentSize="1084,633.08" FloatingSize="1084,633.08" Size="1084,641.2" Orientation="Horizontal">
+		<UIElement xsi:type="SplitContainer" UniqueId="f5a38037-4c88-4944-ae76-be7a60888f17" AutoHideSize="233,633.08" DockedSize="382,641.2" DocumentSize="233,633.08" FloatingSize="233,633.08" Size="382,641.2" Orientation="Vertical">
+			<UIElement xsi:type="ToolWindowContainer" UniqueId="9191d17f-e907-4bdb-8301-ce8ee7b37f97" AutoHideSize="233,292.08" DockedSize="382,308.499776598492" DocumentSize="233,292.08" FloatingSize="233,292.08" Size="382,308.499776598492" SelectedWindowUniqueId="0435d78b-78ac-4c60-9a77-8baa22232faf">
+				<UIElement xsi:type="ToolWindowRef" UniqueId="0435d78b-78ac-4c60-9a77-8baa22232faf" Name="RuleToolWindow" />
+			</UIElement>
+			<UIElement xsi:type="ToolWindowContainer" UniqueId="3241d5c0-60c5-462a-80f6-0968ae55831b" AutoHideSize="233,337" DockedSize="382,328.700223401508" DocumentSize="233,337" FloatingSize="233,337" Size="382,328.700223401508" SelectedWindowUniqueId="ca0f7f8d-bc7b-4e87-8930-daa63389ad95">
+				<UIElement xsi:type="ToolWindowRef" UniqueId="ca0f7f8d-bc7b-4e87-8930-daa63389ad95" Name="GeneralStatsToolWindow" />
+			</UIElement>
+		</UIElement>
+		<UIElement xsi:type="SplitContainer" UniqueId="65c9fe05-6284-4d9d-9552-9a5d5688ef06" AutoHideSize="847,633.08" DockedSize="698,641.2" DocumentSize="847,633.08" FloatingSize="847,633.08" Size="698,641.2" Orientation="Vertical">
+			<UIElement xsi:type="Workspace" UniqueId="8e785c7c-f19a-45cb-844f-3ddcb8a2fc66" AutoHideSize="847,225.08" DockedSize="847,225.08" DocumentSize="698,306" FloatingSize="847,225.08" Size="698,306" />
+			<UIElement xsi:type="SplitContainer" UniqueId="15467a9d-0dcc-42f3-bdb4-f8ca60f0b109" AutoHideSize="847,404" DockedSize="698,331.2" DocumentSize="847,404" FloatingSize="847,404" Size="698,331.2" Orientation="Horizontal">
+				<UIElement xsi:type="ToolWindowContainer" UniqueId="1c768cc2-e679-4b89-bb5b-c7a53ac20587" AutoHideSize="446,404" DockedSize="366.494382022471,331.2" DocumentSize="446,404" FloatingSize="446,404" Size="366.494382022471,331.2" SelectedWindowUniqueId="7bd065cb-7749-4be7-bb83-b4518c2069d1">
+					<UIElement xsi:type="ToolWindowRef" UniqueId="0300bb31-149e-42e9-b6e6-ff6c95971860" Name="GridToolWindow" />
+					<UIElement xsi:type="ToolWindowRef" UniqueId="7bd065cb-7749-4be7-bb83-b4518c2069d1" Name="CodeTreeToolWindow" />
+					<UIElement xsi:type="ToolWindowRef" UniqueId="bb35fcc0-2a02-4748-9da7-9cb804a1b2ca" Name="WarningsAndErrorsToolWindow" />
+					<UIElement xsi:type="ToolWindowRef" UniqueId="f10d37a6-6125-4d77-acfd-656c0b9607ab" Name="DebugOutputToolWindow" />
+				</UIElement>
+				<UIElement xsi:type="ToolWindowContainer" UniqueId="e2df8bf2-e100-4d64-b049-f769aada1290" AutoHideSize="397,404" DockedSize="327.505617977529,331.2" DocumentSize="397,404" FloatingSize="1244,991" Size="327.505617977529,331.2" SelectedWindowUniqueId="d943e660-9c6e-45ad-b476-825f8c2e4cfd">
+					<UIElement xsi:type="ToolWindowRef" UniqueId="d943e660-9c6e-45ad-b476-825f8c2e4cfd" Name="TreemapToolWindow" />
+				</UIElement>
+				<UIElement xsi:type="ToolWindowContainer" UniqueId="d3192fd4-6531-4959-9b9f-a4a17a418f0e" AutoHideSize="397,404" DockedSize="708.303677342823,628" DocumentSize="397,404" FloatingSize="397,404" Size="708.303677342823,628" SelectedWindowUniqueId="00000000-0000-0000-0000-000000000000" />
+			</UIElement>
+		</UIElement>
+	</Content>
+	<RaftingHosts />
+	<ToolWindows>
+		<ToolWindow UniqueId="0435d78b-78ac-4c60-9a77-8baa22232faf" AutoHideSize="200,292.08" DockedSize="382,308.499776598492" DocumentSize="200,292.08" FloatingSize="200,292.08" Size="382,308.499776598492" IsOpen="true" Name="RuleToolWindow" Title="Queries" LastState="Docked" State="Docked" />
+		<ToolWindow UniqueId="ca0f7f8d-bc7b-4e87-8930-daa63389ad95" AutoHideSize="200,337" DockedSize="382,328.700223401508" DocumentSize="200,337" FloatingSize="200,337" Size="382,328.700223401508" IsOpen="true" Name="GeneralStatsToolWindow" Title="General Stats" LastState="AutoHide" State="Docked" />
+		<ToolWindow UniqueId="0300bb31-149e-42e9-b6e6-ff6c95971860" AutoHideSize="446,200" DockedSize="366.494382022471,331.2" DocumentSize="446,200" FloatingSize="446,200" Size="366.494382022471,331.2" IsOpen="true" Name="GridToolWindow" Title="Grid" LastState="Docked" State="Docked" />
+		<ToolWindow UniqueId="7bd065cb-7749-4be7-bb83-b4518c2069d1" AutoHideSize="446,200" DockedSize="366.494382022471,331.2" DocumentSize="446,200" FloatingSize="446,200" Size="366.494382022471,331.2" IsOpen="true" Name="CodeTreeToolWindow" Title="CodeTree" LastState="Docked" State="Docked" />
+		<ToolWindow UniqueId="bb35fcc0-2a02-4748-9da7-9cb804a1b2ca" AutoHideSize="446,200" DockedSize="366.494382022471,331.2" DocumentSize="446,200" FloatingSize="446,200" Size="366.494382022471,331.2" IsOpen="true" Name="WarningsAndErrorsToolWindow" Title="Warnings and Errors" LastState="Docked" State="Docked" />
+		<ToolWindow UniqueId="f10d37a6-6125-4d77-acfd-656c0b9607ab" AutoHideSize="446,200" DockedSize="366.494382022471,331.2" DocumentSize="446,200" FloatingSize="446,200" Size="366.494382022471,331.2" IsOpen="true" Name="DebugOutputToolWindow" Title="Debug Info" LastState="Docked" State="Docked" />
+		<ToolWindow UniqueId="d943e660-9c6e-45ad-b476-825f8c2e4cfd" AutoHideSize="397,200" DockedSize="327.505617977529,331.2" DocumentSize="397,200" FloatingSize="1244,991" Size="327.505617977529,331.2" IsOpen="true" Name="TreemapToolWindow" Title="Treemap" LastState="Floating" RaftingLocation="1283,5" State="Docked" />
+	</ToolWindows>
+</DockSiteLayout>

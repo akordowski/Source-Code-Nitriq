@@ -1,0 +1,21 @@
+﻿- Clean up unused code
+- Refactor Treemaps
+- Add type names labels to treemap
+- Add params to bfmethod
+- start with non-framework types, don't even load types from tier assemblies that aren't used
+	- by extension this will get rid of types that the framework relies on that aren't used at all by core
+		- if a depends on b depends on c, but a doesn't depend on c, c's types shouldn't show at all
+- Add the rest of the 
+- nail down licensing system
+	- eziriz 
+		- flaky support, took a while to get working
+	- infralution
+		- has integrating paypal stuff for an extra $90
+		- codeproject favorites
+	- rustemsoft
+	- http://www.ssware.com/cryptolicensing/cryptolicensing_net.htm
+	- http://www.codeproject.com/script/Catalog/List.aspx?ctlck=24
+- figure out why treemap doesn't refresh with the image
+
+- build website
+- logo contest

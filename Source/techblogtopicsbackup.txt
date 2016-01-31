@@ -1,0 +1,1248 @@
+﻿tech blog topics
+
+
+http://misfitgeek.com/blog/did-you-know-that-if-you-rsquo-re-an-msdn-subscriber-you-can-get-telerik-wpf-controls-free/
+
+spirograph iphone application
+
+tuesday discussion:
+list your strengths/weaknesses
+
+http://www.mattmazur.com/2009/06/pokershark-gaining-an-edge-at-online-poker/
+http://www.codingthewheel.com/archives/stranger-than-fiction-story-online-poker-tracker-postgresql
+
+vacuum floating balloon/blimp kids toy
+find ultra light ultra strong material that you can turn into a rigid shape (things to try carbon fiber rods, balsa wood, various heat shrink plastics, super tough rubber ballons, mylar), then suck all the air out of it with a pump and it should float in air because it is less dense than the surrounding air. market it as a kids toy that doesn't need helium to fly. put motors push it around. You could also add some device that makes the frame expand or contract to make it neutrally boyant depending on the atmospheric pressure at any given time. For first tries, instead of doing an ellipitical shape, try doing a square shape with carbon fiber.
+Atmospheric pressure at sea level (standard): Pa = 14.7 psi
+http://abs-rods-sheets.com/carbon-fiber/rods.htm
+http://www.remote-control-rc-hobby.com/carbon-fiber-rods.html
+http://www.centralhobbies.com/control_linkage/carbrod.html - buy push rods here, fairly cheap
+http://www.mylarstoreonline.com/25ft.html
+
+http://www.statisticool.com/streamstat.htm
+
+http://www.babynamewizard.com/voyager#prefix=&ms=true&sw=m&exact=false
+
+http://svay.com/blog/index/post/2009/06/19/Face-detection-in-pure-PHP-(without-OpenCV)
+
+Start website that takes funny pictures from digg and reddit and turns them into demotivational pictures. Look at the comments at digg/reddit to get inspiration for what the text under the image should be.
+
+post announcements to techSentry (techsentry.com)
+
+when its ok to abbreviate variable names: only if the word has at least 6 characters and you use it all over in businessy talk. Don't just drop vowels, try to take the first part of the word: "column" => "col" not "clmn", "dictionary" => "dict" not "dctny", but you should use the "To" convention for dictionaries anyway. Show a bunch of code using the two different styles and ask the reader which is more readable.
+
+buy this book
+http://www.moskalyuk.com/blog/yes-50-scientifically-proven-ways-to-be-persuasive
+
+create site like icanhazcheezburger or failblog or yourlogomakesmebarf.com called: fratastic or "huh" (full of pictures that don't make sense)
+
+cheap animoto competitor
+dynamic raster - perhaps just a bulk image compositor
+something similar to artisteer
+
+
+Easy way for people to get the Monty Hall Problem:  But by changing the story to 1,000,000 doors, where the contestant selects one door and then the host opens 999,998 other doors, leaving one un-opened, made it clear to me.
+The reason most people have a problem with it is because they think that monty randomly showing the door with the car should be figured in, it isn't. it is a different set of possibilities. What we're supposed to analyze is a specific subset of probabilities - that the door he opens has a goat behind it. Show proof with Bayes Theorem
+
+color background generator
+http://kuler.adobe.com/#links (see knicknacks)
+
+http://blog.objectmentor.com/articles/2009/06/08/metrics-of-moment
+
+create twitter account: word of the day, little known fact of the day, acronym of the day, cool website of the day
+
+http://lifehacker.com/5281179/top-10-wallpaper-tools--tweaks
+
+termsheet anti dilution
+http://www.ansanelli.com/blog/?p=1032
+
+make sure logo doesn't look like:
+http://labs.indyhall.org/
+
+http://www.udidahan.com/2009/06/07/the-fallacy-of-reuse/
+
+jellyfishsecrets.com
+-another idea - a niche ebook on fireworks
+
+nitriq hosting?
+http://www.crystaltech.com/comparison.aspx
+
+create travel site that uses good visualizations to show you costs, or optimize costs or schedules (see silverlight airlines demo application) see magic ink/paint paper for good visualization ideas
+
+http://www.autonlab.org/tutorials/
+
+http://www.iconspedia.com
+
+RB 2 kick pedal
+http://ourworld.compuserve.com/homepages/Bill_Bowden/page9.htm
+High Current MOSFET Toggle Switch with Debounced Push Button.
+
+Review these links:
+2008 code metrics - http://blogs.msdn.com/fxcop/archive/2007/10/03/new-for-visual-studio-2008-code-metrics.aspx
+http://www.noctovis.net/blog/index.php/2009/02/09/code-review-with-ndepend/
+
+http://www.universityreviewsonline.com/2005/10/101-youtube-videos-to-teach-you-the-art-of-public-speaking.html
+
+blackfire query: ensure that object that derives from window has low cyclomatic complexity for all its non-generated methods
+
+Set keyboard shortcut for Editor.ContextMenus.XamlEditor.NavigateToEventHandler
+
+wpf drag and drop files - http://www.kirupa.com/blend_wpf/drag_drop_files_wpf_pg3.htm
+
+Create a "Who Is Hacker News" survey from the nitriq website. Post live results
+- Income 40k to 200k in 10k increments
+- Zipcode
+- Job type - employee, founder
+- company employee size <5, <10, <20, <50, <100, <200, <1000
+- planning on launching new startup? when?
+
+how to get your kids to argue persuasively - how to get programers to argue with ethos and pathos and not just logos
+http://www.figarospeech.com/teach-a-kid-to-argue/
+
+free, cheap survey service, just like survey monkey without any of the restrictions. Just serve advertisements next to it. Might be perfect app for azure => geo replication, scales beautifully, and a simple key value store is probably right up the alley of someone creating a variable length/field survey. Make it easy for users to embed in an iframe. make a facebook counterpart, so users can create their own cheesy surveys
+
+create drag+drop helper that doesn't automatically add/remove from a list/itemssource, but calls various methods to coerce/check that the drop target is valid, also handles drag adorners
+
+outlook inbox tip - sort by conversation
+
+sorting your data on your pivot makes pivoting code much faster than using a dictionary/hash. (Find the actual difference in time)
+
+http://www.atalasoft.com/cs/blogs/stevehawley/archive/2009/01/26/string-similarity-and-extension-methods.aspx
+
+wpf behaviors
+http://sachabarber.net/?p=510
+
+Change BfCollection backing from HashSet+List to HashSet+Array[]
+
+http://coolthingoftheday.blogspot.com/2009/04/us-countystate-spatial-data-all-ready.html
+
+http://www.amazon.com/Yes-Scientifically-Proven-Ways-Persuasive/dp/1416570969
+
+why are we so cheap with software
+http://www.lostechies.com/blogs/jimmy_bogard/archive/2009/03/08/why-are-we-so-cheap-with-software.aspx
+
+be completely open with finances
+
+props to Paint.Net for their dialog boxes
+    - when you try to close a window that hasn't been saved, each option is its own gigantic button, makes it really easy to figure out what you want to do
+    - this is in contrast to Excel's save dialog box when you've made formatting changes to a CSV file (click yes to blah blah, click no to blah blah, click cancel to blah blah)
+
+wpf - IsHitTestVisible == awesome
+in orbifold's parallel coords, hovering on line brings up values popups, which turned hover off -
+also awesome to use for the icon portion of context menu item's for displaying "select all" because it will be appropriately themed instead of create an icon of a checkbox
+also awesome to prevent someone from unchecking a checked checkbox.
+EventSetters == awesome
+
+http://graphsharp.codeplex.com/
+
+is there any way for nitriq to handle these:
+http://www.secretgeek.net/cruel_compiler.asp
+
+http://www.smashingmagazine.com/2009/04/07/15-essential-checks-before-launching-your-website/
+
+Adwords to buy:
+FxCop, Ndepend?, c# static analysis, code rules, semmle, naming standards, code naming standards, code statistics
+
+http://psd.tutsplus.com/articles/web/50-totally-free-lessons-in-graphic-design-theory/
+
+wpf - overwrite content template on context menu, so you can have a context menu that isn't a bunch of menu items, but something that makes more sense (like a color picker)
+
+vonstats?
+
+build your own surface
+http://www.maximumpc.com/article/features/maximum_pc_builds_a_multitouch_surface_computer?page=0%2C1
+
+http://www.codedigest.com/Articles/VisualStudio/228_Optimizing_Performance_in_WPF_Applications.aspx
+http://chriscavanagh.wordpress.com/2009/04/06/binding-dynamic-properties/
+
+designing to sell
+http://zygote.egg-co.com/designing-to-sell/
+
+set
+{
+    if («?FormatFieldName(«?Member»)» != value)
+    {
+        «?FormatFieldName(«?Member»)» = value;
+        FirePropertyChanged("«Member»");
+    }
+}
+
+xaml image generation in php
+http://geekswithblogs.net/tkokke/archive/2009/06/01/image-generation-in-php-using-wpf.aspx
+
+when commented out code is ok:
+when you need to make a reader aware the what they'd want to do on first instinct is wrong. however it should be accompanied with an explanation on why it is wrong. Remember when you started taking an actual science course, and the teacher made you use pen, specifically so you couldn't erase anything. If you had a wrong equation, you were to cross it out with a single line, not scribble it out, so that way you could see what you originally did, it paid off all the time for me.
+
+http://blogs.msdn.com/mikehillberg/archive/2009/03/20/icommand-is-like-a-chocolate-cake.aspx
+
+My problem with SOLID principles: they would be a lot more useful if refactoring tools didn't exist, but refactoring tools DO exist. I think creating an interface that will (as far as you know) only ever have a single class implementing it, a waste of time. If something comes along and you want to swap it out, use your refactoring tool to rename it. Applying some of these principles is to my eyes a premature optimization. Wait until something is a problem before you try to fix it, otherwise you end up with a lot more code than you need.
+Example: TagFiltering - I had a viewmodel class that had a collection of tags, that when changed would modify a Func<IHaveTags, bool> predicate, when I realized that I needed the same functionality, I ripped it out and made the TagFilter class to make the code reusable. Along same lines, originally only one concept was going to be "taggable", Population, then we realized we'd like tags on GEs as well, so I made an interface IHaveTags, to make it easier to work with, BUT ONLY AFTER I determined that there was going to be more than one object utilizing this functionality. Agile says DON'T add until you absolutely need it.
+Further - problem with SRP - when you put everything in it's own class, it can be hard find the things the operate on the same type of object.
+
+explain that there is a difference between puzzle questions and thought questions (light switch rooms, vs # cars in home state)
+
+guideline for when to delete code
+when I'm rewriting a method, I like to comment out the old code for reference. make a commitment to delete that code as soon as you're done rewriting the method.
+
+drag and drop is a lot easier in binding situations (most of them). Look at drag and drop treeview code in Nitriq
+
+have kenneth read:
+http://conservablogs.com/bluecollarmuse/2008/10/06/socialisms-lying-promise/
+
+What the military can teach us about code and life
+-programers are a force multiplier, unfortunately, the multiplier can be a number between 0 and 1
+
+http://www.uxbooth.com/blog/good-call-to-action-buttons/
+stock photos are more attractive when rotated 15degrees and cropped (see below for an example of rotated stock photos)
+http://www.uxbooth.com/blog/quick-usability-checklist/
+
+
+
+        public void Exec(string commandName, vsCommandExecOption executeOption, ref object varIn, ref object varOut, ref bool handled)
+        {
+            handled = true;
+            //if(executeOption == vsCommandExecOption.vsCommandExecOptionDoDefault)
+            //{
+            //    if(commandName == "XamlCollapse.Connect.XamlCollapse")
+            //    {
+            //        handled = true;
+            //        return;
+            //    }
+            //}
+
+            //these two lines have the effect of expanding all collapsed sections of code
+            _applicationObject.DTE.ExecuteCommand("Edit.ToggleAllOutlining", "");
+            _applicationObject.DTE.ExecuteCommand("Edit.ToggleAllOutlining", "");
+            //_applicationObject.DTE.ExecuteCommand("Edit.StopOutlining", "");
+            //_applicationObject.DTE.ExecuteCommand("Edit.StartAutomaticOutlining", ""); <-- Isn't available for some reason
+           
+
+            TextDocument textDoc = ((TextDocument)_applicationObject.DTE.ActiveDocument.Object("TextDocument"));
+            EditPoint editPoint = textDoc.StartPoint.CreateEditPoint();
+           
+            string text = editPoint.GetText(textDoc.EndPoint);
+
+            MatchCollection matches = Regex.Matches(text, @"\<!--#[^-]*--\>\s+(?<element>\<[^>]*>)", RegexOptions.IgnoreCase);
+
+            for (int i = matches.Count - 1; i >= 0 ; i--)
+            {
+                Match match = matches[i];
+
+                int offset = match.Groups["element"].Index;
+                TextSelection selection = (TextSelection)_applicationObject.DTE.ActiveDocument.Selection;
+                selection.MoveToAbsoluteOffset(offset, false);
+                _applicationObject.DTE.ExecuteCommand("Edit.ToggleOutliningExpansion", "");   
+            }
+           
+        }
+
+
+http://www.foss.kharkov.ua/g1/projects/eazfuscator/dotnet/Default.aspx
+
+quince.infragistics.com
+http://dotnet.org.za/rudi/archive/2008/03/25/10-things-i-didn-t-know-about-wpf-data-binding.aspx
+
+http://dotnet.dzone.com/news/wpf-kid-stuff-extracting
+01.// Get the template from the control
+02.ControlTemplate template = ctl.Template;
+03. 
+04.// We want our xaml of be properly indented, ohterwise
+05.// we would not be able to indent them.
+06.XmlWriterSettings xmlSettings = new XmlWriterSettings();
+07.xmlSettings.Indent = true;
+08. 
+09.// Make the string builder
+10.StringBuilder sb = new StringBuilder();
+11.XmlWriter writer = XmlWriter.Create(sb, xmlSettings);
+12.XamlWriter.Save(template, writer);
+13. 
+14. 
+15.// Now the sb.ToString() should give us the template
+
+
+softwarebyrob.com
+http://freelanceswitch.com/finding/the-secret-to-landing-clients-nearly-100-of-the-time/
+
+cool - animoto.com
+
+wpf -> when creating URIs to resources, always specifically mention the assembly (pack://application:,,,/Predictor.Wpf;Component/Resources/spectrum.jpg), it will still resolve correctly if you're directly calling the executable, but if you do it otherwise (pack://application:,,,/Resources/spectrum.jpg) you'll get an error when you instantiate the window/usercontrol from a different executable
+
+http://www.ted.com/index.php/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen.html
+gapminder.org -> motion graphs = cool
+
+How you can get a Treeview to work the way you would want (RuleCategories and Rules from Nitriq)
+
+good place for link juice: http://dotnetshoutout.com
+also http://managedassembly.com/  neither use nofollow
+
+http://blogs.msdn.com/jaimer/archive/2009/01/20/styling-microsoft-s-wpf-datagrid.aspx
+http://blogs.msdn.com/vinsibal/archive/2009/01/21/exploring-mvvm-grouping-with-the-datagrid.aspx
+http://code.msdn.microsoft.com/BlendSense/Release/ProjectReleases.aspx?ReleaseId=2129
+
+Ben Fry's discertation on UI
+
+use actipro syntax editor to make a grep on crack app via match evaluators (have one box for the regex, another box so they can type in their own matchevaluator code, but it will have c# code completion)
+
+
+when you're trying to setup a binding for a style trigger and the data source is a DataRow or DataRowView, and you want a data trigger to when the row/column value is DBNull.Value, you actually need to set the trigger value to "null" not DBNull. Sometimes a value can be "" if you haven't explicitly given the datacolumn a type, so you'll want to handle that too.
+                Style style = new Style();
+               
+                DataTrigger trigger = new DataTrigger { Binding = Binding, Value = null }; //Not DBNull
+                trigger.Setters.Add(new Setter { Property = Image.VisibilityProperty, Value = Visibility.Collapsed });
+                style.Triggers.Add(trigger);
+
+                indicator.Style = style;
+
+
+
+blender: cool
+http://blogs.msdn.com/mikeormond/archive/2009/01/14/creating-3d-models-for-wpf.aspx
+
+cool: the let statement in linq
+           Func<int, int> stuff = x => { Console.WriteLine(x); return x + 10; };
+            List<int> numbers = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            var blah = from number in numbers
+                       let numPlus10 = stuff(number)
+                       where numPlus10 < 100
+                       select new { number, numPlus10 };
+
+how to do a pivot list with linq
+
+cecil.decompiler
+
+http://blogs.msdn.com/llobo/archive/2007/03/05/listening-to-dependencyproperty-changes.aspx
+
+
+
+how awesome ted.com and fora.tv are
+
+http://www.semdesigns.com
+
+why was ObservableCollection<T> put in WindowsBase instead of System.dll or mscorlib.dll?
+
+Things that MS could do to make WPF look better out of the box
+-set FocusVisualStyle="{x:Null}" for all FrameworkElements
+
+http://lifehacker.com/5113372/most-popular-diy-projects-of-2008-and-all-time
+
+wow - http://www.codeproject.com/KB/cs/concept_ide.aspx
+
+http://www.smashingmagazine.com/2008/12/15/10-useful-techniques-to-improve-your-user-interface-designs/
+http://www.syncfusion.com/FAQ/WPF/wpf_c113c.aspx
+
+everyone talks about why not to do it quick and dirty the first time around. I disagree, it sucks to go back and refactor or totally rework, but you have to prove all the parts will work as needed. spent way too much time on raster project and just to learn the security sucks
+
+on the topic of really big numbers: number of unique combinations that can be shown on a 1280x1024 monitor: 2^(24color depth * 1280 * 1024) = 2 ^ 1080033280 combinations.
+2^x = 10^y
+y = ln(2) * x / ln(10)
+y = .30 x
+
+plugging in combos => y = 3.25e8
+there are 10^325000000 combos
+how many universe s would it take to fill with monitors?
+
+http://www.visualcomplexity.com/vc/
+
+
+
+really good video on WPF and M-V-VM
+http://blog.lab49.com/archives/2650
+Jason Dolinger
+
+really cool development platform for 3d http://unity3d.com/
+
+fast file copying - fastcopy (search lifehacker for link)
+
+be very open with web usage statistics, revenue, etc
+
+wpf gotcha: style triggers will seem like they are not working when you actually set the value on the control itself
+        <Style TargetType="{x:Type Line}">
+            <Setter Property="Line.Stroke" Value="Black" />
+            <Style.Triggers>
+                <Trigger Property="Line.IsMouseDirectlyOver" Value="True">
+                    <Setter Property="Line.Stroke" Value="Red" />
+                </Trigger>
+           </Style.Triggers>
+        </Style>
+...
+<Line X1="" ... Stroke="Purple">  -- setting here will ALWAYS be purple, set in the style instead
+
+make a call to all .net developers to add c# and or vb.net code for all the wikipedia articles on OO design principles, gang of four patterns, and basic algorithms (trees, longest common substring). create a new wiki if wikipedia deletes the contributions
+
+if you want a good answer on a discussion board or stack overflow, DO NOT post on the weekend, it'll get buried and no one will look at it. look at top 100 questions and see what day of the week they're posted on. look at a bunch of questions with 1 answer and see what day of the week they're posted on.
+
+why isn't there an enum type in MS SQL, Oracle and all the other DB's? We don't need it to be another table, no need for a join, but the query needs to contextual. It would speed things up dramatically. Its "syntactic sugar", but C# loves to add sugar, lets do it for TSQL too. Same goes for no "bool" column in SQL server, wtf, let me query "select * from stuff where IsValid = false"
+
+create a list of my "must read" blog entries on as a sidebar item, keep people reading on the site
+
+act like your hair is on fire: go into your router or find a plugin for FF that lets you block domains like digg, reddit, drudge and yes, even hacker news until you're done. Or only give yourself an hour A WEEK of any of the above sites.
+
+
+Create a port of HSLColor from (http://richnewman.wordpress.com/hslcolor-class/) for the WPF color struct. (also add support for alpha channel in HSL)
+public class HSLColor
+    {
+        // Private data members below are on scale 0-1
+        // They are scaled for use externally based on scale
+        private double hue = 1.0;
+        private double saturation = 1.0;
+        private double luminosity = 1.0;
+
+        private const double scale = 240.0;
+
+        public double Hue
+        {
+            get { return hue * scale; }
+            set { hue = CheckRange(value / scale); }
+        }
+        public double Saturation
+        {
+            get { return saturation * scale; }
+            set { saturation = CheckRange(value / scale); }
+        }
+        public double Luminosity
+        {
+            get { return luminosity * scale; }
+            set { luminosity = CheckRange(value / scale); }
+        }
+
+        private double CheckRange(double value)
+        {
+            if (value < 0.0)
+                value = 0.0;
+            else if (value > 1.0)
+                value = 1.0;
+            return value;
+        }
+
+        public override string ToString()
+        {
+            return String.Format("H: {0:#0.##} S: {1:#0.##} L: {2:#0.##}", Hue, Saturation, Luminosity);
+        }
+
+        public string ToRGBString()
+        {
+            Color color = (Color)this;
+            return String.Format("R: {0:#0.##} G: {1:#0.##} B: {2:#0.##}", color.R, color.G, color.B);
+        }
+
+        #region Casts to/from System.Drawing.Color
+        public static implicit operator Color(HSLColor hslColor)
+        {
+            double r = 0, g = 0, b = 0;
+            if (hslColor.luminosity != 0)
+            {
+                if (hslColor.saturation == 0)
+                    r = g = b = hslColor.luminosity;
+                else
+                {
+                    double temp2 = GetTemp2(hslColor);
+                    double temp1 = 2.0 * hslColor.luminosity - temp2;
+
+                    r = GetColorComponent(temp1, temp2, hslColor.hue + 1.0 / 3.0);
+                    g = GetColorComponent(temp1, temp2, hslColor.hue);
+                    b = GetColorComponent(temp1, temp2, hslColor.hue - 1.0 / 3.0);
+                }
+            }
+            return Color.FromArgb((int)(255 * r), (int)(255 * g), (int)(255 * b));
+        }
+
+        private static double GetColorComponent(double temp1, double temp2, double temp3)
+        {
+            temp3 = MoveIntoRange(temp3);
+            if (temp3 < 1.0 / 6.0)
+                return temp1 + (temp2 - temp1) * 6.0 * temp3;
+            else if (temp3 < 0.5)
+                return temp2;
+            else if (temp3 < 2.0 / 3.0)
+                return temp1 + ((temp2 - temp1) * ((2.0 / 3.0) - temp3) * 6.0);
+            else
+                return temp1;
+        }
+        private static double MoveIntoRange(double temp3)
+        {
+            if (temp3 < 0.0)
+                temp3 += 1.0;
+            else if (temp3 > 1.0)
+                temp3 -= 1.0;
+            return temp3;
+        }
+        private static double GetTemp2(HSLColor hslColor)
+        {
+            double temp2;
+            if (hslColor.luminosity < 0.5)  //<=??
+                temp2 = hslColor.luminosity * (1.0 + hslColor.saturation);
+            else
+                temp2 = hslColor.luminosity + hslColor.saturation - (hslColor.luminosity * hslColor.saturation);
+            return temp2;
+        }
+
+        public static implicit operator HSLColor(Color color)
+        {
+            HSLColor hslColor = new HSLColor();
+            hslColor.hue = color.GetHue() / 360.0; // we store hue as 0-1 as opposed to 0-360
+            hslColor.luminosity = color.GetBrightness();
+            hslColor.saturation = color.GetSaturation();
+            return hslColor;
+        }
+        #endregion
+
+        public void SetRGB(int red, int green, int blue)
+        {
+            HSLColor hslColor = (HSLColor)Color.FromArgb(red, green, blue);
+            this.hue = hslColor.hue;
+            this.saturation = hslColor.saturation;
+            this.luminosity = hslColor.luminosity;
+        }
+
+        public HSLColor() { }
+        public HSLColor(Color color)
+        {
+            SetRGB(color.R, color.G, color.B);
+        }
+        public HSLColor(int red, int green, int blue)
+        {
+            SetRGB(red, green, blue);
+        }
+
+        public HSLColor(double hue, double saturation, double luminosity)
+        {
+            this.Hue = hue;
+            this.Saturation = saturation;
+            this.Luminosity = luminosity;
+        }
+
+
+    }
+
+
+biz idea: lightweight app that lets the user easily resize/crop pictures for use as background wallpaper, start with john to take awesome pics
+
+the awesome free plugins for DXCore: HighlightCurrentLineInEditor, CR_JumpToImplementation
+    I know that everyone loves R#, but DevExpress has pretty much always had stable versions for VS betas, so I wasn't acting like a heroin fiend in withdrawal. R# wasn't stable until several months after VS08 went live. No modal dialogs either and awesome set of templates. In order to drive more traffic, challenge people to win me over to R#, which features must I have that CR doesn't. Are all the features that I use the most in CR/R! in R#? text embedding, selection expansion
+
+*after you've gotten popular* - do whatever it takes to ignore distractions - music (lyrics known to you, or muzac, rhapsody, pandora not so much do to lyrics) - getting inebriated :D
+
+coding horror - perl golf -> one line fizz buzz
+
+how excited I am for BigInteger - write some extension methods from the BigInteger codeproject for the BCL BigInteger
+how a hashtable actually works - difference between a cryptographic hash and a hash used for hashtables. Explore the StringComparer and IComparable/IComparer for generic dictionaries
+SerializationInfo - Contains
+Adding information to MSDN community content
+color utilities
+list builder
+Extension Operators (for string builder)
+silverlight and seo
+pimp my ide - coderush
+refactorpro
+debugger attributes, ToString(), create new snippits?
+keyboard setup
+no such thing as self explaining code
+    summary tags really explain what function is trying to do because faulty logic could be construed as valid to an outside developer - kind of like unit test
+comments should be in first person (examples 2nd, 3rd person) - ninject.org userguide - Awesome example
+
+aesthetics of virtual earth versus google maps (gmaps better because far few names = less visual noise), color contrast, font glow is a great concept but better ways of handling it - similar to how some DVD players do subtitles
+compare load times
+gmaps centers states names, so they're readable. live maps labels the "UNITED STATES" - oh thanks, I wasn't really sure. wtf. Live maps uses five or size point styles to show cities of different size => too confusing, just use one
+live maps abbreviates states and turns some sideways
+livemaps centers on where you're at, but at macro level so country isn't necessarily focused. If they're going to make a guess, zoom in farther. Otherwise it makes to center your view.
+live maps - Portland is not important and oregon label in funky place, but you're going to keep idaho in funky place in order to show boise? wtf.
+live maps doesn't show a scale for zoom so you don't know how much farther you can zoom in or out - requires a lot more clicking to do the same thing
+
+
+BindingList and ondeserialization
+naming of dictionaries (ex. traitNameToMultiple)
+code regioning (methods that are only called by one other method should be in same region)
+
+regular expressions (camtasia?) - Make sure each search is
+
+applications I can't live without
+favorite resources (dnr, hanselman, codinghorror)
+List<T> binary search
+Creating generic versions of combobox, datatable column tags, etc
+what you really need to know about aop, dependency injection - ninject.org
+why aren't we using one time pads already for intra-company intra-government communication? (explain what a one time pad is) Using commonly available information as the pad? Make two copies of very large disks filled with random bits. Possibly re-use the pad by encrypting the data with RSA first, to prevent any linear cryptanalysis. Or have some sort of crazy mapping that lets your scramble the pad for reuse. Each block that is getting the pad tied to it would get a lookup number for which set of the bytes in the main source pad would actually be used to apply to the message.
+don't use var unless iterating through a linq result
+how automatic property getters setters are different from public fields
+conditional breakline - slow!!!! don't use in big loops
+simplify conditionals in loops to use if/continue/break instead of if/else (refactor calls it flattening)
+star team options with diff merge
+why source control should warn that you are about to edit an old file
+nullable value types not xmlserializable :( they always come back null
+why i'm holding off on silverlight
+silverlight version of "the game of life"
+wpf - 3D version of game of life
+why coding is more than a job to me
+advice to new guys: never ever ever say something is impossible
+use dependency injection to automatically put DebuggerStepThrough on simple properties??
+XmlSerializer IDeserializationCallback with reflection
+
+Game of life with irregular shapes (circular, hexagonal, triangular, mix octagon and squares) - 3d spheres, pyriamids, completely randomized (think crazy draw and fill in MSPaint from highschool). Use ninject to bind rules to shapes. Rightclick on shape to change rules for that shape. "Ectoplasm" leave trail of whether or not it is alive overtime (graidient blend) perhaps have it fade over time/time based brightness. Different coloring schemes (more states than alive and dead, perhaps "off", states that use different rules?). ICoordinateSystem. "Generator Regions" - rules dictate that "live, dead" is completely random. Have different views of the same dish running at the same time
+
+I wish the C# compiler would look for string.format([some string literal or constant], arg1, arg2) and would compile the IL as if it were a string builder, obviously, string.format couldn't do this if the pattern was a dynamic (a non-constant variable)
+
+advantage of MVC/using events to notify view that change has been made to the state of the model: You don't have to worry about multiple instances of the view (or form) being open, if a change is made to one, the other automatically gets updated -> you don't have to worry about inconsistent state problems
+
+son of strike - expresso file => vs plugin?
+
+advantages of 1.1 being relatively feature complete => cohesive community. Java => low cohesion because there are million libraries to do everything.
+
+a blog tag called "Wish list" for c# --> Extension Interfaces
+
+CTRL+ALT+E => in VS.NET
+
+dis/advantages of duck typing
+
+memory and speed performance - hashtables vs generic dictionaries vs binary search lists
+
+research methodology - actual testing
+
+codeplex - needs more screen shots
+
+flickr surface
+
+facebook connection hierarchy via silverlight -> kind of like wpf family show
+
+virtual earth => too much visual noise
+
+build .net service ontop of tiger gps stuff
+
+Wishlist - Pseudo Duck Typing => Extension Interfaces => Allow strong typing at design time - GridMultiSorter, I'd like TextBox and ToolStripTextBox to both implement ITextProperty (because I don't care which type the user selects, I just want a component that has a property called "Text")
+
+Windows Forms Absolute Positioning (not snap grid) - Hold ALT key while moving control
+
+Don't EVER use XmlDocument - use object xml serialization
+
+FizzBuzz with one semicolon
+for (int i = 0; i < 100; i++) Console.WriteLine((i % 3 == 0 && i % 5 == 0) ? "FizzBuzz" : (i % 3 == 0) ? "Fizz" : (i % 5 == 0) ? "Buzz" : i.ToString());
+VB Version with IIF
+
+Reflector: Analyze to get "referenced by"
+
+List.Sort, List.Find, List.FindAll
+
+fluent interfaces (http://en.wikipedia.org/wiki/Fluent_interface) are less necessary with the advent of the new object initializer synatx in C# 3.0
+
+Adding Kick It code to dasBlog
+<a href="http://www.dotnetkicks.com/kick/?url=<%PermalinkUrl%>"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=<%PermalinkUrl%>" border="0" alt="kick it on DotNetKicks.com" /></a>
+
+Algorithm for intersecting two sorted lists (even though the lists may be of two different types, as long as they share an interface, with which you're going to compare)
+
+Coderush: awesome feature: References (alt+F12) -> really good for complicated refactoring, learning where code is
+
+
+code to find distinct values in a collection
+
+stacking nested using statements
+
+using (someobject)
+using (someotherobject)
+{
+}
+
+instead of
+using (someobject)
+{
+    using(someotherobject)
+    {
+    }
+}
+
+Awesomeness of Cast<T> on any non-generic IEnumerable
+//finds total width of columns
+grid.Columns.Cast<DataGridViewColumn>().Aggregate(0, (total, col) => total += col.Width);
+grid.Columns.Cast<DataGridViewColumn>().Sum((col) => col.Frozen ? col.Width : 0);
+
+Create a new version of MultiBinding with named parameters instead of ordered parameters
+Create a new version of Binding where the converter property is a dependency property so you can reference dynamic resources
+
+Creating an AOP attribute for an assembly, that gets placed in assembly info that will reflect all of the classes, find out which private members are visible via a property and automatically add a [DebuggerBrowsable(DebuggerBrowsableState.Never)] attribute to the field
+
+MapReduce => in C# Map = IEnumerable.ForEach(lambda), Reduce = IEnumerable.Aggregate(lambda)
+
+Eating exceptions not always bad: Mostly for UI - WPF does it all the time
+
+write app that finds all places where 5 lines of code are repeated (make number of lines configurable)
+-to do so: strip all whitespace and comments, take a hash of every line, then use LCS to find where there are 5 hashes in the same order, double check it by doing an actual string comparison
+
+Generic methods can have their type inferred:
+the following two methods both compile and are the same because the second knows the type is an inbred because value.Inbreds is a bindingList<Inbred>
+value.Inbreds = Util.BindingListSort<Inbred>(value.Inbreds, (i1, i2) => i1.Name.CompareTo(i2.Name));
+value.Inbreds = Util.BindingListSort(value.Inbreds, (i1, i2) => i1.Name.CompareTo(i2.Name));
+
+geek gift ideas - do off season (in summer, for birthdays)
+
+My Code Rush templates, shortcuts
+
+
+        public class Person
+        {
+           
+            public Person(int age)
+            {
+                m_Age = age;
+            }
+
+            private string m_Name;
+            public string Name
+            {
+                get { return m_Name; }
+                set
+                {
+                    m_Name = value;
+                }
+            }
+
+            private int m_Age;
+            public int Age
+            {
+                get { return m_Age; }
+            }
+
+            private void CreatePerson()
+            {
+            ************ This Works!!!!!! *****************
+                var p = new Person(3) { Name = "Chester" };
+            }
+           
+        }
+
+
+As far as extension methods go, there isn’t any real overhead as far as the MSIL that gets generated, its all just a compiling trick. However, before you write an extension method, you should ask yourself whether or not it makes sense for the type to have the method (in other words: “If I actually could modify this class, would I still be keeping my concerns separate?”).  I would argue that for your string logging example, you would be breaking SoC/encapsulation because a string really has nothing to do with the concept of logging and shouldn’t be placed as an extension method on the string class. An extension method should be used for things inherently related to the object it will be called off of. For a string, your extension methods should mostly be about string manipulation (left, right, etc).
+
+ 
+
+Now that I really think about it, I would say that a good general rule is this: all “good” extension methods will call methods from the object being extended or use properties off of the object, but not just consume the object as a whole. If it is consuming it as a whole, class that contains the method that takes the object as a parameter should either be called directly, or it should be extended to encapsulate the necessary logic.
+
+
+create a reflector like application but actually allow the user to browse the actual code, (instead of having to step into it)
+
+wpf speed reading app - integrate with rss, site text scrapers, (insert ads every 5 minutes?) Make it silverlight to inject ads?
+
+Coworker red flags:
+- They don't use a fixed width font
+- They don't use the native resolution of their LCD
+- They don't use any shortcuts at all (ctrl+c, ctrl+v, F5, F10, F11)
+
+
+Top 10 Shortcuts you probably aren't using, but should, collapse all, toggle collapse, alt+shft+f10, alt+n,k,
+
+Interpersonal Geek Skillz
+    - How to deal with people that know less than you
+    - Be humble
+    - be the first person to own up to your mistakes - you're human it happens and it looks a lot better coming from you than your co-workers
+    - when someone publicly talks down about you or something you did, how to handle it
+        - escalating to their boss should be the absolute last resort, otherwise it hardens their position in order to save face
+    - absolutely do NOT argue over email, resolve conflicts in person with only the people that need to be there, (that way they can save face) (make a funny image of a face then arrow then disk)
+        - write the email and send it yourself, then delete it
+    - always give someone who wronged you every out possible, what is important beating them down or really getting what you want?
+        - "hanks and the switch", I knew he took it but I phrased it as though he "borrowed" it
+    - When dealing with old code that should be changed
+        - when asking to let the owner let you change the code, make sure you validate why they did it to begin with, don't question why they did it that way, find a good reason why it could have been written that way - then explain how the situation has changed and that is why it should be changed
+            - sometimes it helps to do it in front of other people, sometimes one on one
+        - style issues are tough
+        - be self effacing, point out all the times you've been wrong
+    - when it comes to dealing with analysts - under promise, over deliver
+    - How to Win Friends and Influence People
+
+the Keyword "var" considered harmful to code readability
+
+
+public class EqualityComparer<T> : IEqualityComparer<T>
+    {
+        //add additional extension method "Distinct" that takes in the two funcs, then creates this class and passes it to the other extension method       
+
+        Func<T, T, bool> m_Equals;
+        Func<T, int> m_GetHashCode;
+
+        public EqualityComparer(Func<T, T, bool> equals, Func<T, int> getHashCode)
+        {
+            m_Equals = equals;
+            m_GetHashCode = getHashCode;
+        }
+       
+
+        #region IEqualityComparer<T> Members
+
+        public bool Equals(T x, T y)
+        {
+            return m_Equals(x, y);
+        }
+
+        public int GetHashCode(T obj)
+        {
+            return m_GetHashCode(obj);
+        }
+
+        #endregion
+    }
+
+
+Make a mashup that makes it easier to engage in voter fraud. Take in a zip code and then create driving directions to all the polling places in the zip code. Possibly cross reference it with voter registration so you know who you can vote for. Create a foundation that tries to make it law to have to have identification when you go to vote. Instead of referencing voter registration, possibly create a fake utility bill creator, since you don't have to have ID, you just have to have a utility bill (type in your name and an address in the precinct and you can print out a bill from Mid-American). Keep a record of everyone who uses site to print off bill.) Call site voterfraudmadeeasy.com or ezVoterFraud.com. Make a crayon written note, because it would be just as ridiculous.
+Even worse, a law with ambiguity. No wonder they don’t ask. Can’t you just picture some old fart getting accused of only asking minorities for identification or something like that, and then BOOM, a big voting fraud controversy. I wouldn’t ask, either, if I were the one handing out ballots.
+So, it looks like it is up to the people at the polling place to ask for ID:
+http://www.sos.state.ia.us/elections/VoterInformation/VotingElectionDay.html
+
+
+build a small app that unzips a file, if it has a single folder as it's root just uncompress it next to the file, if it just contains a bunch of files, create a new folder that is named the same as the zip file. afterwards, move the zip file to the newly created directory
+
+
+share dynamic lambda
+find use where we're using parameters in dhtracker
+
+    /// <summary>
+    /// Contains an extension method for dynamic queries against IEnumerable objects instead of just IQueryable objects
+    /// Written by Jon von Gillern
+    /// </summary>
+    public static class DynamicLambda
+    {
+        public static Func<T, bool> CreatePredicate<T>(string predicate)
+        {
+            var expression = DynamicExpression.ParseLambda(typeof(T), typeof(bool), predicate, new object[1]);
+            Delegate del = expression.Compile();
+            Func<T, bool> pred = del as Func<T, bool>;
+
+            return pred;
+        }
+
+        public static IEnumerable<T> Where<T>(this IEnumerable<T> items, string whereClause)
+        {
+            List<T> list = new List<T>(items);
+            Func<T, bool> pred = CreatePredicate<T>(whereClause);
+            return list.Where(pred);
+        }
+
+        public static Func<T, bool> CreatePredicate<T>(string predicate, params object[] parameters)
+        {
+            var expression = DynamicExpression.ParseLambda(typeof(T), typeof(bool), predicate, parameters);
+            Delegate del = expression.Compile();
+            Func<T, bool> pred = del as Func<T, bool>;
+            return pred;
+        }
+
+        public static IEnumerable<T> Where<T>(this IEnumerable<T> items, string whereClause, params object[] parameters)
+        {
+            List<T> list = new List<T>(items);
+            Func<T, bool> pred = CreatePredicate<T>(whereClause, parameters);
+            return list.Where(pred);
+        }
+
+        public static Func<T, T, int> CreateComparer<T>(string propertyName, bool asscending)
+        {
+            string text;
+            if (asscending)
+                text = string.Format("item1.{0}.CompareTo(item2.{0})", propertyName);
+            else
+                text = string.Format("item2.{0}.CompareTo(item1.{0})", propertyName);
+
+            var expression = DynamicExpression.ParseLambda<T, int>(text);
+            Delegate del = expression.Compile();
+            Func<T, T, int> comparer = del as Func<T, T, int>;
+            return comparer;
+        }
+
+
+        //public static Func<T, T, int> CreateComparer<T>(string ordering)
+        //public static object CreateComparer<T>(IQueryable source, string ordering)
+        //{
+        //    ParameterExpression[] parameters = new ParameterExpression[] {
+        //        Expression.Parameter(typeof(T), "") };
+
+        //    ExpressionParser parser = new ExpressionParser(parameters, ordering);
+        //   
+        //    IEnumerable<DynamicOrdering> orderings = parser.ParseOrdering();
+        //    Expression queryExpr = source.Expression;
+
+        //    string methodAsc = "OrderBy";
+        //    string methodDesc = "OrderByDescending";
+
+        //    DynamicExpression.ParseLambda
+
+        //    foreach (DynamicOrdering o in orderings)
+        //    {
+        //        queryExpr = Expression.Call(
+        //            typeof(Queryable), o.Ascending ? methodAsc : methodDesc,
+        //            new Type[] { source.ElementType, o.Selector.Type },
+        //            queryExpr, Expression.Quote(Expression.Lambda(o.Selector, parameters)));
+        //        methodAsc = "ThenBy";
+        //        methodDesc = "ThenByDescending";
+        //    }
+        //   
+        //    return source.Provider.CreateQuery(queryExpr);
+        //}
+
+    }
+
+
+http://www.randomhouse.com/modernlibrary/100bestnonfiction.html
+
+
+
+private DataTemplate CreateFactViewModelTemplate(int index)
+        {
+            string xamlTemplateFormat =
+                @"<DataTemplate xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
+                    xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml"">
+                    <StackPanel Orientation=""Horizontal"">
+                        <Rectangle Height=""10"" Width=""20"" Fill=""{Binding FactViewModels[~Index~].LeftColor}""></Rectangle>
+                        <Rectangle Height=""10"" Width=""20"" Fill=""{Binding FactViewModels[~Index~].RightColor}""></Rectangle>
+                    </StackPanel>
+                  </DataTemplate>";
+
+            //we can't use string.format because we use { and } for the bindings and string.format doesn't like that
+            string xamlTemplate = xamlTemplateFormat.Replace("~Index~", index.ToString());
+
+            //return (DataTemplate)XamlReader.Load(new MemoryStream(ASCIIEncoding.Default.GetBytes(xamlTemplate)));
+            return (DataTemplate)XamlReader.Parse(xamlTemplate);
+        }
+
+wow
+http://www.orbifold.net/default/?p=1886
+how cool would it be to make this visualization
+check out wiki page, the references have some neat ideas
+http://www.dcs.napier.ac.uk/~marting/parCoord/GrahamKennedyParallelCurvesIV03.pdf
+
+http://www.dspdimension.com/admin/dft-a-pied/
+
+share extension methods
+
+        /// <summary>
+        /// Finds the first parent of the given type
+        /// </summary>
+        public static T FindParent<T>(this FrameworkElement element) where T : FrameworkElement
+        {
+            T logicalParent = element.FindLogicalParent<T>();
+
+            if (logicalParent != null)
+                return logicalParent;
+            else
+                return element.FindVisualParent<T>();
+
+        }
+
+        private static T FindLogicalParent<T>(this FrameworkElement element) where T : FrameworkElement
+        {
+            if (element.Parent == null)
+                return default(T);
+            if (element.Parent.GetType() == typeof(T))
+                return (T)element.Parent;
+            return ((FrameworkElement)element.Parent).FindLogicalParent<T>();
+        }
+
+        private static T FindVisualParent<T>(this FrameworkElement element) where T : FrameworkElement
+        {
+            DependencyObject parent = VisualTreeHelper.GetParent(element);
+
+            if (parent == null)
+                return default(T);
+            if (parent.GetType() == typeof(T))
+                return (T)parent;
+            return ((FrameworkElement)parent).FindVisualParent<T>();
+
+        }
+
+        public static bool IsNumericType(this Type type)
+        {
+            return type == typeof(double) ||
+                   type == typeof(decimal) ||
+                   type == typeof(int) ||
+                   type == typeof(long) ||
+                   type == typeof(short) ||
+                   type == typeof(byte);
+        }
+       
+
+        public static void AddRange<T>(this ICollection<T> collection, IEnumerable<T> itemsToAdd)
+        {
+            foreach (T item in itemsToAdd)
+                collection.Add(item);
+        }
+
+        public static void RemoveWhere<T>(this ICollection<T> collection, Func<T, bool> removalPredicate)
+        {
+            var removeThese = collection.Where(removalPredicate).ToArray();
+
+            foreach (var item in removeThese)
+                collection.Remove(item);
+        }
+
+        public static void AddValueChanged(this DependencyProperty property, object sourceObject, EventHandler handler)
+        {
+            DependencyPropertyDescriptor dpd = DependencyPropertyDescriptor.FromProperty(property, property.OwnerType);
+            dpd.AddValueChanged(sourceObject, handler);
+        }
+
+        public static bool IsMatch(this string input, string pattern)
+        {
+            return Regex.IsMatch(input, pattern, RegexOptions.IgnoreCase);
+        }
+
+        public static Dictionary<TKey, TValue> CreateDictionary<T, TKey, TValue>(
+            this IEnumerable<T> source, Func<T, TKey> keyFunc, Func<T, TValue> valueFunc)
+        {
+            Dictionary<TKey, TValue> dictionary = new Dictionary<TKey, TValue>();
+
+            foreach (T item in source)
+                dictionary.Add(keyFunc(item), valueFunc(item));
+
+            return dictionary;
+        }
+
+
+show how you can do bit shifting and masking with base N
+
+public static class Permuations
+    {
+        public static List<string> FindPermutations(params List<string>[] args)
+        {
+            List<List<string>> lists = new List<List<string>>(args);
+
+            if (lists.Count > 10)
+                throw new Exception("Doesn't support more than 10 lists");
+
+            if (lists.Count == 0)
+                throw new Exception("Must have at least one incoming list");
+
+            int itemCount = lists.First().Count;
+
+            foreach (List<string> list in lists)
+                if (list.Count != itemCount)
+                    throw new Exception("All lists must be the same size");
+
+            int parentCount = lists.Count;
+            int totalPerms = (int)Math.Pow(parentCount, itemCount);
+
+            List<string> perms = new List<string>();
+
+            BaseConverter baseConverter = new BaseConverter(parentCount);
+
+            for (int i = 0; i < totalPerms; i++)
+            {
+                StringBuilder builder = new StringBuilder();
+                for (int j = 0; j < itemCount; j++)
+                {
+                    //when we only had two lists, you could do this
+                    //builder.Append(parents[(i >> j) & 1][j]);
+                    builder.Append(lists[baseConverter.ShiftAndMask(i, j)][j]);
+                }
+
+                perms.Add(builder.ToString());
+            }
+
+            return perms;
+        }
+
+        /// <summary>
+        /// base converter helper class
+        /// </summary>
+        private class BaseConverter
+        {
+            private int m_BaseNumber;
+
+            public BaseConverter(int baseNumber)
+            {
+                if (baseNumber > 10)
+                    throw new Exception("This class isn't meant to use bases greater than 10");
+
+                m_BaseNumber = baseNumber;
+            }
+
+            /// <summary>
+            /// Shifts the number to the right, and masks all but the 1's place
+            /// </summary>
+            /// <remarks>
+            /// we can actually return an integer (instead of a string) because the constructor
+            /// only takes bases up to 10
+            /// </remarks>
+            public int ShiftAndMask(int base10Number, int shiftSize)
+            {
+                string baseN = FromBase10(base10Number, m_BaseNumber);
+
+                if (shiftSize >= baseN.Length)
+                    return 0;
+
+                return int.Parse(baseN[baseN.Length - 1 - shiftSize].ToString());
+            }
+
+            public static string FromBase10(int number, int target_base)
+            {
+                if (target_base < 2 || target_base > 36) return "";
+                if (target_base == 10) return number.ToString();
+
+                int n = target_base;
+                int q = number;
+                int r;
+                string rtn = "";
+
+                while (q >= n)
+                {
+                    r = q % n;
+                    q = q / n;
+
+                    if (r < 10)
+                        rtn = r.ToString() + rtn;
+                    else
+                        rtn = Convert.ToChar(r + 55).ToString() + rtn;
+
+                }
+
+                if (q < 10)
+                    rtn = q.ToString() + rtn;
+                else
+                    rtn = Convert.ToChar(q + 55).ToString() + rtn;
+
+                return rtn;
+
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+    /// <summary>
+    /// This dictionary exposes each of its entries as if it were a property on the object for wpf binding purposes
+    /// ex. {Binding myPop.MyBindingDictionary.YIELD} will work as a binding as long as there is an entry
+    /// in the dictionary with the key "YIELD"
+    /// </summary>
+    /// <remarks>Derived from: http://zcoder.blogspot.com/2007/11/icustomtypedescriptor.html</remarks>
+    /// <typeparam name="TValue"></typeparam>
+    [Serializable]
+    public class BindingDictionary<TValue> : Dictionary<string, TValue>, ICustomTypeDescriptor
+    {
+        private PropertyDescriptorCollection m_PropertyDescriptorCollectionCache;
+
+        #region stuff we don't care about
+
+        public AttributeCollection GetAttributes()
+        {
+            return new AttributeCollection(null);
+        }
+
+        public string GetClassName()
+        {
+            return null;
+        }
+
+        public string GetComponentName()
+        {
+            return null;
+        }
+
+        public TypeConverter GetConverter()
+        {
+            return null;
+        }
+
+        public EventDescriptor GetDefaultEvent()
+        {
+            return null;
+        }
+
+        public PropertyDescriptor GetDefaultProperty()
+        {
+            return null;
+        }
+
+        public object GetEditor(Type editorBaseType)
+        {
+            return null;
+        }
+
+        public EventDescriptorCollection GetEvents(Attribute[] attributes)
+        {
+            return new EventDescriptorCollection(null);
+        }
+
+        public EventDescriptorCollection GetEvents()
+        {
+            return new EventDescriptorCollection(null);
+        }
+
+        #endregion
+
+        public PropertyDescriptorCollection GetProperties(Attribute[] attributes)
+        {
+            if (m_PropertyDescriptorCollectionCache == null)
+            {
+                PropertyDescriptor[] properties = new PropertyDescriptor[this.Count];
+                int i = 0;
+                foreach (string key in this.Keys)
+                {
+                    properties[i] = new StringDictPropertyDescriptor<TValue>(key);
+                    i++;
+                }
+                m_PropertyDescriptorCollectionCache = new PropertyDescriptorCollection(properties);
+            }
+            return m_PropertyDescriptorCollectionCache;
+        }
+
+        public PropertyDescriptorCollection GetProperties()
+        {
+            return ((ICustomTypeDescriptor)this).GetProperties(null);
+        }
+
+        public object GetPropertyOwner(PropertyDescriptor pd)
+        {
+            return this;
+        }
+    }
+
+    [Serializable]
+    public class StringDictPropertyDescriptor<TValue> : PropertyDescriptor
+    {
+        public StringDictPropertyDescriptor(string key)
+            : base(key, null)
+        {
+
+        }
+
+        public override bool CanResetValue(object component)
+        {
+            return true;
+        }
+
+        public override Type ComponentType
+        {
+            get { return typeof(Dictionary<string, TValue>); }
+        }
+
+        public override object GetValue(object component)
+        {
+            return ((Dictionary<string, TValue>)component)[base.Name];
+        }
+
+        public override bool IsReadOnly
+        {
+            get { return false; }
+        }
+
+        public override Type PropertyType
+        {
+            get
+            {
+                return typeof(TValue);
+            }
+        }
+
+        public override void ResetValue(object component)
+        {
+            ((Dictionary<string, TValue>)component)[base.Name] = default(TValue);
+        }
+
+        public override void SetValue(object component, object value)
+        {
+            ((Dictionary<string, TValue>)component)[base.Name] = (TValue)value;
+        }
+
+        public override bool ShouldSerializeValue(object component)
+        {
+            return true;
+        }
+    }
+

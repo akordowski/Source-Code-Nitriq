@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{3499C6C0-E509-4E27-8BB7-D4A003F341D3}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>Nitriq.Console</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Cecil" />
+    <Reference Include="System.Core" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Mono.Cecil.Pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-{A4E2B913-6D5D-4BA4-B1DE-B694635088C7}.cs" />
+    <Compile Include="Attribute0.cs" />
+    <Compile Include="Class0.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="IntelliLock.Licensing\DataSignHelper.cs" />
+    <Compile Include="IntelliLock.Licensing\EvaluationMonitor.cs" />
+    <Compile Include="IntelliLock.Licensing\HardwareID.cs" />
+    <Compile Include="IntelliLock.Licensing\License.cs" />
+    <Compile Include="IntelliLock.Licensing\LicenseLocation.cs" />
+    <Compile Include="IntelliLock.Licensing\LicenseStatus.cs" />
+    <Compile Include="IntelliLock.Licensing\License_DeActivator.cs" />
+    <Compile Include="IntelliLock\DialogBoxAttribute.cs" />
+    <Compile Include="Nitriq.Analysis.Models\AssemblyCollection.cs" />
+    <Compile Include="Nitriq.Analysis.Models\AssemblyFetcher.cs" />
+    <Compile Include="Nitriq.Analysis.Models\AssemblyFileInfo.cs" />
+    <Compile Include="Nitriq.Analysis.Models\AssemblyTuple.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BaseClearHash.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BaseCollection.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BfAssembly.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BfCache.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BfDictionary.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BfEvent.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BfField.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BfMember.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BfMethod.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BfNamespace.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BfSerializable.cs" />
+    <Compile Include="Nitriq.Analysis.Models\BfType.cs" />
+    <Compile Include="Nitriq.Analysis.Models\Builder.cs" />
+    <Compile Include="Nitriq.Analysis.Models\EventCollection.cs" />
+    <Compile Include="Nitriq.Analysis.Models\ExtensionMethods.cs" />
+    <Compile Include="Nitriq.Analysis.Models\FieldCollection.cs" />
+    <Compile Include="Nitriq.Analysis.Models\File.cs" />
+    <Compile Include="Nitriq.Analysis.Models\IBfAssembly.cs" />
+    <Compile Include="Nitriq.Analysis.Models\IBfEvent.cs" />
+    <Compile Include="Nitriq.Analysis.Models\IBfField.cs" />
+    <Compile Include="Nitriq.Analysis.Models\IBfMethod.cs" />
+    <Compile Include="Nitriq.Analysis.Models\IBfNamespace.cs" />
+    <Compile Include="Nitriq.Analysis.Models\IBfType.cs" />
+    <Compile Include="Nitriq.Analysis.Models\IHaveId.cs" />
+    <Compile Include="Nitriq.Analysis.Models\IHaveUniqueName.cs" />
+    <Compile Include="Nitriq.Analysis.Models\INameable.cs" />
+    <Compile Include="Nitriq.Analysis.Models\Logger.cs" />
+    <Compile Include="Nitriq.Analysis.Models\LogLevel.cs" />
+    <Compile Include="Nitriq.Analysis.Models\MethodCollection.cs" />
+    <Compile Include="Nitriq.Analysis.Models\MethodDetails.cs" />
+    <Compile Include="Nitriq.Analysis.Models\NamespaceCollection.cs" />
+    <Compile Include="Nitriq.Analysis.Models\NitriqException.cs" />
+    <Compile Include="Nitriq.Analysis.Models\RefDetail.cs" />
+    <Compile Include="Nitriq.Analysis.Models\StopwatchWriter.cs" />
+    <Compile Include="Nitriq.Analysis.Models\TypeCollection.cs" />
+    <Compile Include="Nitriq.Analysis.Models\Util.cs" />
+    <Compile Include="Nitriq.Console\ConsoleMain.cs" />
+    <Compile Include="Nitriq.Project.Models\BindingCollection.cs" />
+    <Compile Include="Nitriq.Project.Models\ItemChangedEventArgs.cs" />
+    <Compile Include="Nitriq.Project.Models\Problem.cs" />
+    <Compile Include="Nitriq.Project.Models\QueryResults.cs" />
+    <Compile Include="Nitriq.Project.Models\ResultIdTypes.cs" />
+    <Compile Include="Nitriq.Project.Models\Rule.cs" />
+    <Compile Include="Nitriq.Project.Models\RuleCategory.cs" />
+    <Compile Include="Nitriq.Project.Models\RuleSet.cs" />
+    <Compile Include="Nitriq.Project.Models\RuleStatus.cs" />
+    <Compile Include="Nitriq.Wpf\EnumerableExtensions.cs" />
+    <Compile Include="Nitriq.Wpf\IName.cs" />
+    <Compile Include="Nitriq.Wpf\LicenseData.cs" />
+    <Compile Include="Nitriq.Wpf\LightAssembly.cs" />
+    <Compile Include="Nitriq.Wpf\LightCollection.cs" />
+    <Compile Include="Nitriq.Wpf\LightNamespace.cs" />
+    <Compile Include="Nitriq.Wpf\LightType.cs" />
+    <Compile Include="Nitriq.Wpf\LightWrapper.cs" />
+    <Compile Include="Nitriq.Wpf\MainViewModelBase.cs" />
+    <Compile Include="Nitriq.Wpf\Util.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="92a1b607-6502-4e33-ae50-ad799c7d4334" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="beaker.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
